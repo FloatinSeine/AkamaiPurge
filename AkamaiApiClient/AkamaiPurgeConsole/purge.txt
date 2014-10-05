@@ -1,0 +1,2 @@
+http://media.mycompany.com/Images/logo.png
+http://media.mycompany.com/Images/sprite.png
