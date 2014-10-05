@@ -3,6 +3,13 @@ AkamaiPurge
 
 A small console app to flush media on the Akamai CDN
 
+API Access Config<br />
+Need to modify the AkamaiPurgeConsole.exe.config config file with a valid Username and password to access the Akamai API<br />
+Chunk Size is the batch size of file lists to send to the API; recommended use 100
+<pre>
+&lt;akamai username="[username]" password="[password]" chunkSize="100" /&gt;
+</pre>
+
 Command Line Options
 <pre>
 -d = [production | staging] Domain Type
