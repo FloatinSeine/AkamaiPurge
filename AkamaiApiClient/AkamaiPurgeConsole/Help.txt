@@ -14,11 +14,11 @@ Standard Log4Net configuration options available to log to file or command line
 
 Command Line Options
 -d = [production | staging] Domain Type 
--t = [cp | arl]		    Purge Type 
+-t = [cp | arl]				Purge Type 
 -a = [invalidate | remove]  Action Type
 -e = [email address]	    Email to notify when complete
--f = [filepath]		    Path to file containing ARLs to Purge. New line for each ARL
--?			    Help
+-f = [filepath]				Path to file containing ARLs to Purge. New line for each ARL
+-?							Help
 
 Example
 console.exe -d=production -t=arl -a=invalidate -e="recipient@company.com" -f="c:\\path\\arls.txt"
